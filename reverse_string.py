@@ -28,7 +28,7 @@ def reverse(string):
  
     stack = createStack()
  
-    # Push all characters of string to stack
+    # Push all the characters of the string to the stack
     for i in range(0, n):
         push(stack, string[i])
  
